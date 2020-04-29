@@ -1,1 +1,0 @@
-# dayyanaibragimova.github.io
