@@ -88,7 +88,7 @@ input, select, textarea {
 		font-size: 19pt;
 		font-weight: 300;
 		line-height: 1.75em;
-		color: #888;
+		color: #000;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -107,12 +107,12 @@ input, select, textarea {
 		font-size: 19pt;
 		font-weight: 300;
 		line-height: 1.75em;
-		color: #888;
+		color: #000;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 300;
-		color: #666;
+		color: #000; 
 		line-height: 1.5em;
 	}
 
@@ -122,7 +122,7 @@ input, select, textarea {
 	}
 
 		h1 a strong, h2 a strong, h3 a strong, h4 a strong, h5 a strong, h6 a strong {
-			color: #333;
+			color: #000;
 		}
 
 	h2 {
@@ -131,11 +131,11 @@ input, select, textarea {
 	}
 
 		h2.alt {
-			color: #888;
+			color:rgb(0,0,0);
 		}
 
 			h2.alt strong {
-				color: #666;
+				color: rgb(0,0,0);
 			}
 
 	h3 {
@@ -2218,21 +2218,21 @@ input, select, textarea {
 		}
 
 			#main > section.dark {
-				color: #ddd;
-				color: rgba(255, 255, 255, 0.75);
+				color: #ffffff;
+				color: #ffffff;
 			}
 
 				#main > section.dark h2, #main > section.dark h3, #main > section.dark h4, #main > section.dark h5, #main > section.dark h6 {
-					color: inherit;
+					color: #000000;
 				}
 
 				#main > section.dark strong {
-					color: #fff;
+					color: #ffffff;
 					border-color: inherit;
 				}
 
 				#main > section.dark a {
-					color: #fff;
+					color: #ffffff;
 					border-color: inherit;
 				}
 
@@ -2249,6 +2249,7 @@ input, select, textarea {
 			#main > section.one {
 				background-color: #81918E;
 				background-image: url("../../images/Chicago.jpg");
+
 			}
 
 			#main > section.two {
@@ -2257,6 +2258,7 @@ input, select, textarea {
 
 			#main > section.three {
 				background-color: #ecf1f1;
+
 			}
 
 			#main > section.four {
