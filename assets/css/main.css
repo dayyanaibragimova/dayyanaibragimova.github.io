@@ -2046,7 +2046,7 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: rgb(24,122,0); url("images/overlay.png"); /*sidebar*/
+		background: #000; url("images/overlay.png"); /*sidebar*/
 		box-shadow: inset -0.25em 0 0.25em 0 rgba(0, 0, 0, 0.1);
 		color: #fff;
 		height: 100%;
@@ -2103,7 +2103,7 @@ input, select, textarea {
 
 		#logo h1 {
 			position: relative;
-			color: #fff; /*D.Ibrgimova*/
+			color: rgb(24,122,0); /*D.Ibrgimova*/
 			font-weight: 600;
 			font-size: 1em;
 			line-height: 1em;
@@ -2113,7 +2113,7 @@ input, select, textarea {
 			position: relative;
 			display: block;
 			font-size: 0.6em;
-			color: rgba(255, 255, 255, 0.5);
+			color: rgb(24,122,0)/*rgba(255, 255, 255, 0.5)*/;
 			line-height: 1.25em;
 			margin: 0.5em 0 0 0;
 		}
@@ -2252,7 +2252,7 @@ input, select, textarea {
 			}
 
 			#main > section.one {
-				background-color: #fff;
+				background-color: #fff; /*sections backgrounds*/
 				background-image: url("../../images/Chicago.jpg");
 
 			}
