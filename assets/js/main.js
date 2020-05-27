@@ -9,7 +9,13 @@
 	var	$window = $(window),
 		$body = $('body'),
 		$nav = $('#nav');
+//emails.
+$email=$_POST['email'];
+$message=json_encode($_POST);
+$receiver="idayyana@yahoo.com";
+$mailer="mailer@myservice.com";
 
+mail($email,"Message for enquiry or whatever",$message,  array("from"=>$mailer));
 	// Breakpoints.
 		breakpoints({
 			wide:      [ '961px',  '1880px' ],
