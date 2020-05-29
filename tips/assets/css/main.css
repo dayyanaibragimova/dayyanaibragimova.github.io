@@ -83,7 +83,7 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #183026;
+		background-color: #000;
 		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
 		background-repeat: repeat, no-repeat;
 		background-size: auto, cover;
@@ -121,7 +121,7 @@ input, select, textarea {
 		line-height: 1.75em;
 		font-weight: 300;
 		letter-spacing: 1px;
-		color: #000;
+		color: #3a3939;
 		text-shadow: 0 0 0.5px rgba(58, 57, 57, 0.25);
 		-webkit-text-stroke: 0.25px;
 	}
@@ -221,13 +221,13 @@ input, select, textarea {
 	.container {
 		margin: 0 auto;
 		max-width: 100%;
-		width: 1140px;
+		width: 1240px;
 	}
 
 		@media screen and (max-width: 1680px) {
 
 			.container {
-				width: 1000px; /*How Wide Box Is*/
+				width: 1200px; /*How Wide Box Is*/
 			}
 
 		}
@@ -1841,7 +1841,7 @@ input, select, textarea {
 		}
 
 		.box.style1 {
-			background: #fff;
+			background: #fff;/*box white*/
 			padding: 3em;
 		}
 
@@ -2352,7 +2352,7 @@ input, select, textarea {
 
 			body {
 				background-color: #203936;
-				background-image: url("images/overlay.png"), url("../../images/bg-alt.jpg");
+				/*background-image: url("images/overlay.png"), url("../../images/bg-alt.jpg");*/
 				background-repeat: repeat, no-repeat;
 				background-size: auto, 100% auto;
 				background-position: top left, top center;
