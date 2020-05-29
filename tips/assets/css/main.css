@@ -227,7 +227,7 @@ input, select, textarea {
 		@media screen and (max-width: 1680px) {
 
 			.container {
-				width: 960px;
+				width: 1000px; /*How Wide Box Is*/
 			}
 
 		}
@@ -2519,7 +2519,7 @@ input, select, textarea {
 
 				.box:before {
 					width: 45px;
-					height: 33px;
+					height: 45px;
 					top: -2.25em;
 					margin-left: -22.5px;
 					margin-top: -16.5px;
