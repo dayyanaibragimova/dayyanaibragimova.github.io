@@ -121,7 +121,7 @@ input, select, textarea {
 		line-height: 1.75em;
 		font-weight: 300;
 		letter-spacing: 1px;
-		color: #3a3939;
+		color: #000;
 		text-shadow: 0 0 0.5px rgba(58, 57, 57, 0.25);
 		-webkit-text-stroke: 0.25px;
 	}
@@ -160,7 +160,7 @@ input, select, textarea {
 		-webkit-transition: border-color 0.35s ease-in-out, color 0.35s ease-in-out;
 		-ms-transition: border-color 0.35s ease-in-out, color 0.35s ease-in-out;
 		transition: border-color 0.35s ease-in-out, color 0.35s ease-in-out;
-		color: #35b88f;
+		color: #35b88f; /*Link Color*/
 		text-shadow: 0 0 0.5px rgba(53, 184, 143, 0.25);
 		text-decoration: none;
 		border-bottom: dotted 1px rgba(53, 184, 143, 0.5);
@@ -2086,7 +2086,7 @@ input, select, textarea {
 
 	#banner {
 		position: relative;
-		color: #fff;
+		color: #fff; 															/*WHy I wrote this*/
 		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
 		text-align: center;
 		background: #35b88f url("images/banner.svg") bottom center no-repeat;
