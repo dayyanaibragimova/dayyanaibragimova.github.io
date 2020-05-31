@@ -2016,7 +2016,7 @@ input, select, textarea {
 
 			#header header p {
 				border-top: solid 1px rgba(255, 255, 255, 0.5);
-				color: #000;
+				color: #000; /*college students edition*/
 				text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.1875);
 				font-size: 1em;
 				text-transform: uppercase;

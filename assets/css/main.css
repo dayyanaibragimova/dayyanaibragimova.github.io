@@ -175,7 +175,7 @@ input, select, textarea {
 	a {
 		text-decoration: none;
 		
-		color: inherit;
+		color: #inherit;
 		border-bottom: dotted 1px rgba(128, 128, 128, 0.5);
 		-moz-transition: 
 		 0.35s ease-in-out, border-bottom-
@@ -2320,7 +2320,7 @@ input, select, textarea {
 				}
 
 					#main > section.dark a:hover {
-						border-bottom-color: rgba(255, 255, 255, 0);
+						border-bottom-color: #000; /*rgba(255, 255, 255, 0);*/
 					}
 
 			#main > section.cover {
