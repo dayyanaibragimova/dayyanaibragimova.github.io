@@ -122,7 +122,7 @@ input, select, textarea {
 
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 		
-		color: inherit; /*five ways to appear more professional*/
+		color: #000; /*five ways to appear more professional*/
 		text-decoration: none;
 	}
 
@@ -175,7 +175,7 @@ input, select, textarea {
 	a {
 		text-decoration: none;
 		
-		color: #inherit;
+		color: #000; 												/*master of pro accounting*/
 		border-bottom: dotted 1px rgba(128, 128, 128, 0.5);
 		-moz-transition: 
 		 0.35s ease-in-out, border-bottom-
@@ -193,12 +193,20 @@ input, select, textarea {
 	}
 
 		a:hover {
-			
-			color: #E27689;
-			border-bottom-
-			color: rgba(255, 255, 255, 0);
+			color: rgb(144,252,255);
+			border-bottom-color: rgba(255, 255, 255, 0);
 		}
 
+
+/*	
+			color: rgb(144,252,255); 										/*links hover
+			border-bottom-color: rgba(255, 255, 255, 0);
+			text-shadow: -1px 1px 2px #000,
+				  1px 1px 2px #000,
+				  1px -1px 0 #000,
+				  -1px -1px 0 #000;
+		}
+*/
 	sub {
 		position: relative;
 		top: 0.5em;
@@ -2170,7 +2178,7 @@ input[type="button"].style2,
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: rgb(144,252,255) url("images/overlay.png"); /*sidebar*/
+		background: rgb(144,252,255); /*url("images/overlay.png"); /*sidebar*/
 		box-shadow: inset -0.25em 0 0.25em 0 rgba(0, 0, 0, 0.1);
 		
 		color: #fff;
@@ -2265,6 +2273,7 @@ input[type="button"].style2,
 
 		#nav ul li {
 			padding-left: 0;
+
 		}
 
 			#nav ul li a {
@@ -2300,7 +2309,6 @@ input[type="button"].style2,
 				#nav ul li a.active {
 					background-color: rgba(0, 0, 0, 0.15);  /*navigation selection*/
 					box-shadow: inset 0 0 0.25em 0 rgba(0, 0, 0, 0.125);
-					
 					color: #fff;
 				}
 
@@ -2374,13 +2382,13 @@ input[type="button"].style2,
 				#main > section.dark strong {
 					
 					color: #ffffff;
-					border-color: inherit;
+					border-color: #000;
 				}
 
 				#main > section.dark a {
 					
 					color: #ffffff; /*header links*/
-					border-color: inherit;
+					border-color: #000;
 				}
 
 					#main > section.dark a:hover {
@@ -2782,3 +2790,5 @@ input[type="button"].style2,
 				}
 
 	}
+
+
