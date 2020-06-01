@@ -1841,7 +1841,7 @@ input, select, textarea {
 		}
 
 		.box.style1 {
-			background: rgb(231,248,255);/*box white*/
+			background: rgb(231,248,255);																	/*box white*/
 			padding: 3em;
 		}
 
@@ -2384,6 +2384,7 @@ input, select, textarea {
 				}
 
 				.box.style1 {
+					background: rgb(231,248,255);	
 					padding: 2.5em 2em 2.5em 2em;
 				}
 
