@@ -2310,8 +2310,7 @@ input[type="button"].style2,
 					color: #fff;
 				}
 
-					#nav ul li a.active span:before {
-						
+					#nav ul li a.active span:before {	
 						color: #fff;
 					}
 
@@ -2390,7 +2389,7 @@ input[type="button"].style2,
 				}
 
 					#main > section.dark a:hover {
-						border-bottom-color: #000; /*rgba(255, 255, 255, 0);*/
+						border-bottom-color: #000; 									/*rgba(255, 255, 255, 0);*/
 					}
 
 			#main > section.cover {
@@ -2400,14 +2399,13 @@ input[type="button"].style2,
 			}
 
 			#main > section.one {
-				background-color: rgb(231,248,255); /*sections backgrounds*/
+				background-color: rgb(231,248,255); 								/*sections backgrounds*/
 				background-image: url("../../images/Chicago.jpg");	
 
 			}
 
 			#main > section.two {
-				background-color: rgb(231,248,255); /* THIS IS HOW THE 
-				 CHANGES WHOOOHOO*/
+				background-color: rgb(231,248,255); 
 			}
 
 			#main > section.three {
@@ -2668,7 +2666,7 @@ input[type="button"].style2,
 						
 						color: rgb (231,248,255);
 						font-size: 18px;
-						background-color: #000/*rgba(128, 136, 144, 0.5)*/
+						background-color: #000;							/*rgba(128, 136, 144, 0.5)*/ /*scrolly sidebar*/
 						border-radius: 0.35em;
 						text-align: center;
 						position: absolute;
