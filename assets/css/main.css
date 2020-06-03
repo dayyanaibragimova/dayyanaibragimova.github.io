@@ -56,10 +56,8 @@ body {
 }
 
 mark {
-	background-
-	: transparent;
-	
-	: inherit;
+	background-color: transparent;
+	color: inherit;
 }
 
 input::-moz-focus-inner {
@@ -85,13 +83,12 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: rgb(231,248,255); /* background background*/
+		background: #fff;
 		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 19pt;
 		font-weight: 300;
 		line-height: 1.75em;
-		
-		color: #000;
+		color: #888;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -110,25 +107,22 @@ input, select, textarea {
 		font-size: 19pt;
 		font-weight: 300;
 		line-height: 1.75em;
-		
-		color: #000;
+		color: #888;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 300;
-		color: #000; 
+		color: #666;
 		line-height: 1.5em;
 	}
 
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-		
-		color: #000; /*five ways to appear more professional*/
+		color: inherit;
 		text-decoration: none;
 	}
 
 		h1 a strong, h2 a strong, h3 a strong, h4 a strong, h5 a strong, h6 a strong {
-			
-			color: #000;
+			color: #333;
 		}
 
 	h2 {
@@ -137,13 +131,11 @@ input, select, textarea {
 	}
 
 		h2.alt {
-			
-			color:rgb(0,0,0);
+			color: #888;
 		}
 
 			h2.alt strong {
-				
-				color: rgb(0,0,0);
+				color: #666;
 			}
 
 	h3 {
@@ -164,7 +156,6 @@ input, select, textarea {
 
 	strong, b {
 		font-weight: 300;
-		
 		color: #666;
 	}
 
@@ -174,38 +165,20 @@ input, select, textarea {
 
 	a {
 		text-decoration: none;
-		color: inherit; 												/*master of pro accounting*/
+		color: inherit;
 		border-bottom: dotted 1px rgba(128, 128, 128, 0.5);
-		-moz-transition: 
-		 0.35s ease-in-out, border-bottom-
-		 0.35s ease-in-out;
-		-webkit-transition: 
-		 0.35s ease-in-out, border-bottom-
-		 0.35s ease-in-out;
-		-ms-transition: 
-		 0.35s ease-in-out, border-bottom-
-		 0.35s ease-in-out;
-		transition: 
-		 0.35s ease-in-out, border-bottom-
-		 0.35s ease-in-out;
+		-moz-transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+		-webkit-transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+		-ms-transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+		transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 		outline: 0;
 	}
 
 		a:hover {
-			color: #35b88f;
+			color: #E27689;
 			border-bottom-color: rgba(255, 255, 255, 0);
 		}
 
-
-/*	
-			color: rgb(144,252,255); 										/*links hover
-			border-bottom-color: rgba(255, 255, 255, 0);
-			text-shadow: -1px 1px 2px #000,
-				  1px 1px 2px #000,
-				  1px -1px 0 #000,
-				  -1px -1px 0 #000;
-		}
-*/
 	sub {
 		position: relative;
 		top: 0.5em;
@@ -220,11 +193,11 @@ input, select, textarea {
 
 	hr {
 		border: 0;
-		border-top: solid 1px color:#ddd;
+		border-top: solid 1px #ddd;
 	}
 
 	blockquote {
-		border-left: solid 0.5em color:#ddd;
+		border-left: solid 0.5em #ddd;
 		padding: 1em 0 1em 2em;
 		font-style: italic;
 	}
@@ -1799,7 +1772,7 @@ input, select, textarea {
 
 		.image.featured {
 			display: block;
-			width: 20%;
+			width: 100%;
 			margin: 0 0 2em 0;
 		}
 
@@ -1878,7 +1851,7 @@ input, select, textarea {
 		display: block;
 		border: 0;
 		outline: 0;
-		background: #fff; /*CHANGE*/
+		background: #fff;
 		background: rgba(255, 255, 255, 0.75);
 		width: 100%;
 		border-radius: 0.35em;
@@ -1896,7 +1869,7 @@ input, select, textarea {
 		form input[type="password"]:focus,
 		form select:focus,
 		form textarea:focus {
-			box-shadow: 0 0 2px 1px color:#8ebebc;
+			box-shadow: 0 0 2px 1px #8ebebc;
 			background: #fff;
 		}
 
@@ -1912,22 +1885,18 @@ input, select, textarea {
 	}
 
 	form ::-webkit-input-placeholder {
-		
 		color: #555 !important;
 	}
 
 	form :-moz-placeholder {
-		
 		color: #555 !important;
 	}
 
 	form ::-moz-placeholder {
-		
 		color: #555 !important;
 	}
 
 	form :-ms-input-placeholder {
-		
 		color: #555 !important;
 	}
 
@@ -1953,14 +1922,12 @@ input, select, textarea {
 		table th {
 			text-align: left;
 			padding: 0.5em 1em 0.5em 1em;
-			
-			: 	;
+			color: #fff;
 			background: #222729 url("images/overlay.png");
 		}
 
 		table thead {
 			background: #444;
-			
 			color: #fff;
 		}
 
@@ -2009,105 +1976,6 @@ input, select, textarea {
 		.button:active {
 			background-color: #7eaeac;
 		}
-
-input[type="button"].style2,
-		input[type="submit"].style2,
-		input[type="reset"].style2,
-		button.style2,
-		.button.style2 {
-				background: rgba(255, 255, 255, 0.1);
-				color: #fff !important;
-				text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25) !important;
-				box-shadow: inset 0 0 0 1px #fff;
-		}
-
-			input[type="button"].style2:hover,
-			input[type="submit"].style2:hover,
-			input[type="reset"].style2:hover,
-			button.style2:hover,
-			.button.style2:hover {
-				background: #fff;
-				color: #000 !important;
-				text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25) !important;
-				box-shadow: inset 0 0 0 1px #000;
-			}
-/*input[type="button"].style2,
-		input[type="submit"].style2,
-		input[type="reset"].style2,
-		button.style2,
-		.button.style2 {
-			color: #3a3939;
-			background: #fff;
-			box-shadow: inset 0 0 0 1px #fff;
-		}
-
-			input[type="button"].style2:hover,
-			input[type="submit"].style2:hover,
-			input[type="reset"].style2:hover,
-			button.style2:hover,
-			.button.style2:hover {
-				background: rgba(255, 255, 255, 0.1);
-				color: #fff !important;
-				text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25) !important;
-			}*/
-
-	input[type="button"].style3,  /*my scrolly tehe*/
-		input[type="submit"].style3,
-		input[type="reset"].style3,
-		button.style3,
-		.button.style3 {
-				background: rgba(255, 255, 255, 0.1);
-				color: #000 !important;
-				text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25) !important;
-				box-shadow: inset 0 0 0 1px #000;
-		}
-
-			input[type="button"].style3:hover,
-			input[type="submit"].style3:hover,
-			input[type="reset"].style3:hover,
-			button.style3:hover,
-			.button.style3:hover {
-				color: #3a3939;
-				background: #fff;
-				box-shadow: inset 0 0 0 1px #000;
-			}
-
-		/*input[type="button"].style3,  /*my scrolly tehe
-		input[type="submit"].style3,
-		input[type="reset"].style3,
-		button.style3,
-		.button.style3 {
-			color: #3a3939;
-			background: #fff;
-			box-shadow: inset 0 0 0 1px #000;
-		}
-
-			input[type="button"].style3:hover,
-			input[type="submit"].style3:hover,
-			input[type="reset"].style3:hover,
-			button.style3:hover,
-			.button.style3:hover {
-				background: rgba(255, 255, 255, 0.1);
-				color: #000 !important;
-				text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25) !important;
-				} */
-		/*input[type="button"]:hover,
-		input[type="submit"]:hover,
-		input[type="reset"]:hover,
-		button:hover,
-		.button:hover {
-			background-color: rgb(144,252,255); 
-			color: #000;
-		}
-
-		input[type="button"]:active,
-		input[type="submit"]:active,
-		input[type="reset"]:active,
-		button:active,
-		.button:active {
-			background-color: rgb(144,252,255);
-			color: #000;
-		*/
 
 /* Item */
 
@@ -2178,9 +2046,8 @@ input[type="button"].style2,
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: rgb(144,252,255); /*url("images/overlay.png"); /**/
+		background: #222629 url("images/overlay.png");
 		box-shadow: inset -0.25em 0 0.25em 0 rgba(0, 0, 0, 0.1);
-		
 		color: #fff;
 		height: 100%;
 		left: 0;
@@ -2216,20 +2083,14 @@ input[type="button"].style2,
 		}
 
 			#header .icons a {
-				
-				color: #000;  /*linkedin icon*/
-				color-moz-transition: 
-				 0.35s ease-in-out;
-				color-webkit-transition: 
-				 0.35s ease-in-out;
-				color-ms-transition: 
-				 0.35s ease-in-out;
-				color transition: 
-				 0.35s ease-in-out;
+				color: #41484c;
+				-moz-transition: color 0.35s ease-in-out;
+				-webkit-transition: color 0.35s ease-in-out;
+				-ms-transition: color 0.35s ease-in-out;
+				transition: color 0.35s ease-in-out;
 			}
 
 				#header .icons a:hover {
-					
 					color: #fff;
 				}
 
@@ -2242,8 +2103,7 @@ input[type="button"].style2,
 
 		#logo h1 {
 			position: relative;
-			
-			color: rgb(24,122,0); /*D.Ibrgimova*/
+			color: #fff;
 			font-weight: 600;
 			font-size: 1em;
 			line-height: 1em;
@@ -2253,8 +2113,7 @@ input[type="button"].style2,
 			position: relative;
 			display: block;
 			font-size: 0.6em;
-			
-			color: rgb(24,122,0)/*rgba(255, 255, 255, 0.5)*/; /*girlboss*/
+			color: rgba(255, 255, 255, 0.5);
 			line-height: 1.25em;
 			margin: 0.5em 0 0 0;
 		}
@@ -2273,13 +2132,12 @@ input[type="button"].style2,
 
 		#nav ul li {
 			padding-left: 0;
-
 		}
 
 			#nav ul li a {
 				display: block;
-				padding: 0.5em 1.5em 0.5em 1.5em;	
-				color: #000; /*sidebar text*/
+				padding: 0.5em 1.5em 0.5em 1.5em;
+				color: rgba(255, 255, 255, 0.5);
 				text-decoration: none;
 				outline: 0;
 				border: 0;
@@ -2298,20 +2156,20 @@ input[type="button"].style2,
 					#nav ul li a span:before {
 						position: absolute;
 						left: 0;
-						color: #000; /*icons*/
+						color: #41484c;
 						text-align: center;
 						width: 1.25em;
 						line-height: 1.75em;
 					}
 
 				#nav ul li a.active {
-					background: rgba(0, 0, 0, 0.15);  /*navigation selection*/
+					background: rgba(0, 0, 0, 0.15);
 					box-shadow: inset 0 0 0.25em 0 rgba(0, 0, 0, 0.125);
 					color: #fff;
 				}
 
-					#nav ul li a.active span:before {	
-						color: #fff;
+					#nav ul li a.active span:before {
+						color: #e27689;
 					}
 
 /* Footer */
@@ -2319,7 +2177,7 @@ input[type="button"].style2,
 	#footer {
 		margin-left: 375px;
 		text-align: center;
-		background-color: rgb(231,248,255);
+		background-color: #dce3e2;
 		padding: 3em 0 4em 0;
 		box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.05), inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.025);
 		font-size: 0.8em;
@@ -2360,36 +2218,26 @@ input[type="button"].style2,
 		}
 
 			#main > section.dark {
-				
-				color: #ffffff;
-				
-				color: #ffffff;
+				color: #ddd;
+				color: rgba(255, 255, 255, 0.75);
 			}
 
 				#main > section.dark h2, #main > section.dark h3, #main > section.dark h4, #main > section.dark h5, #main > section.dark h6 {
-					
-					color: #ffffff;
-					/*text-shadow: -1px 1px 0 #000,
-				  1px 1px 0 #000,
-				 1px -1px 0 #000;
-				-1px -1px 0 #000;*/
-}
+					color: inherit;
 				}
 
 				#main > section.dark strong {
-					
-					color: #ffffff;
-					border-color: #000;
+					color: #fff;
+					border-color: inherit;
 				}
 
 				#main > section.dark a {
-					
-					color: #ffffff; /*header links*/
-					border-color: #000;
+					color: #fff;
+					border-color: inherit;
 				}
 
 					#main > section.dark a:hover {
-						border-bottom-color: #000; 									/*rgba(255, 255, 255, 0);*/
+						border-bottom-color: rgba(255, 255, 255, 0);
 					}
 
 			#main > section.cover {
@@ -2399,22 +2247,20 @@ input[type="button"].style2,
 			}
 
 			#main > section.one {
-				background-color: rgb(231,248,255); 								/*sections backgrounds*/
-				background-image: url("../../images/Chicago.jpg");	
-
+				background-color: #81918E;
+				background-image: url("../../images/banner.jpg");
 			}
 
 			#main > section.two {
-				background-color: rgb(231,248,255); 
+				background-color: #f5fafa;
 			}
 
 			#main > section.three {
-				background-color: rgb(231,248,255);
-
+				background-color: #ecf1f1;
 			}
 
 			#main > section.four {
-				background-color: rgb(231,248,255);
+				background-color: #e8edec;
 			}
 
 /* Wide */
