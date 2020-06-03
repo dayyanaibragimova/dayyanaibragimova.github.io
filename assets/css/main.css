@@ -2594,8 +2594,8 @@ input[type="button"].style2,
 				width: 275px;
 				z-index: 10002;
 				width: 275px;
-				background-color: #222729 url("images/overlay.png");
-				box-shadow: inset -0.25em 0 0.25em 0 color:rgba(0, 0, 0, 0.125);
+				background: #222729 url("images/overlay.png");
+				box-shadow: inset -0.25em 0 0.25em 0 rgba(0, 0, 0, 0.125);
 			}
 
 				#header .top {
@@ -2663,10 +2663,9 @@ input[type="button"].style2,
 					#headerToggle .toggle:before {
 						text-decoration: none;
 						content: '\f0c9';
-						
-						color: rgb (231,248,255);
+						color: #fff;
 						font-size: 18px;
-						background-color: #000;							/*rgba(128, 136, 144, 0.5)*/ /*scrolly sidebar*/
+						background: rgba(128, 136, 144, 0.5);
 						border-radius: 0.35em;
 						text-align: center;
 						position: absolute;
@@ -2786,5 +2785,3 @@ input[type="button"].style2,
 				}
 
 	}
-
-
