@@ -2254,7 +2254,7 @@ input[type="button"].style2,
 			display: block;
 			font-size: 0.6em;
 			
-			color: rgb(24,122,0)										/*rgba(255, 255, 255, 0.5)*/ /*girlboss*/
+			color: rgb(24,122,0);										/*rgba(255, 255, 255, 0.5)*/ /*girlboss*/
 			line-height: 1.25em;
 			margin: 0.5em 0 0 0;
 		}
