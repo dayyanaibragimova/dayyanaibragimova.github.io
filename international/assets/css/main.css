@@ -1658,6 +1658,13 @@ input, select, textarea {
 				display: none;
 			}
 
+			#main. img {
+  max-width: 50%;
+  max-height: 50%;
+  margin: auto;
+  display: block;
+}
+
 		#main:after {
 			pointer-events: none;
 			-moz-transition: opacity 0.5s ease, visibility 0.5s;
